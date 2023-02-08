@@ -7,3 +7,9 @@ You can use this repository as a template for your repository or copy the files 
 3. If you don't need it stop it with `Control + C` keycommand.
 
 You can write your frontend code (`HTML, CSS, JS`) into the `frontend` directory.
+
+// Inspiration:
+https://www.behance.net/gallery/161840849/Restaurant-Food-Landing-Page-Design?tracking_source=search_projects%7Clanding+page+ux
+
+Restaurant Food Landing Page Design
+Mukhtar Hussain
