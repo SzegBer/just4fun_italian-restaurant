@@ -1,12 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>This is FRONTEND</title>
-</head>
-<body>
-	<div id="root"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Codystar&family=Kameron&family=Merriweather:wght@400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Elegant Restaurant</title>
+  </head>
+
+  <body>
+    <div class="welcome-block">
+      <nav class="menu">
+        <button>Home</button>
+        <button>Our Menu</button>
+        <button>Reservation</button>
+        <button>News</button>
+        <button>Services</button>
+        <button>About us</button>
+        <button class="contact">Contact us</button>
+      </nav>
+
+      <div class="slideshow">
+        <h1>Welcome</h1>
+        <h2>An elegant restaurant that will suprise you with its cuisine.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          hic ullam laborum unde dignissimos! Repellat?
+        </p>
+      </div>
+    </div>
+
+    <div class="block-titles-wrapper">
+      <div class="block-titles">
+        <img src="img/oregano.png" />
+        <h2>Our Menu</h2>
+        <img src="img/basil.png" />
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores hic
+        ullam laborum unde dignissimos! Repellat?
+      </p>
+    </div>
+
+    <div class="four-food-block">
+      <div class="single-food-block">
+        <img src="img/starter.jpg" />
+        <h3>Starters</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/starter2.jpg" />
+        <h3>Starters</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/starter3.jpg" />
+        <h3>Starters</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/starter4.jpg" />
+        <h3>Starters</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+    </div>
+
+    <div class="block-titles-wrapper">
+      <div class="block-titles">
+        <img src="img/oregano.png" />
+        <h2>Favourites</h2>
+        <img src="img/basil.png" />
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores hic
+        ullam laborum unde dignissimos! Repellat?
+      </p>
+    </div>
+
+    <div class="four-food-block">
+      <div class="single-food-block">
+        <img src="img/starter5.jpg" />
+        <h3>Bolognese</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/starter6.jpg" />
+        <h3>Gnocchi spinacchi</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/starter7.jpg" />
+        <h3>Minestrone</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/starter8.jpg" />
+        <h3>Pasta de Funghi</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+    </div>
+    <div class="four-food-block">
+      <div class="single-food-block">
+        <img src="img/starter4.jpg" />
+        <h3>Bolognese</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/starter3.jpg" />
+        <h3>Gnocchi spinacchi</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/starter2.jpg" />
+        <h3>Minestrone</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/starter.jpg" />
+        <h3>Pasta de Funghi</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <button class="food-button">View all</button>
+      </div>
+    </div>
+
+    <div class="block-titles-wrapper">
+      <div class="block-titles">
+        <img src="img/basil.png" />
+        <h2>We Offer</h2>
+        <img src="img/oregano.png" />
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores hic
+        ullam laborum unde dignissimos! Repellat?
+      </p>
+    </div>
+
+    <div class="prices-block">
+      <div class="food-pairs-with-prices">
+        <div class="single-food-with-prices">
+          <img src="img/starter5.jpg" width="180px" />
+          <h3>Bolognese -------- $ 19,75</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+            quae blanditiis minima suscipit accusantium in.
+          </p>
+        </div>
+
+        <div class="single-food-with-prices">
+          <img src="img/starter4.jpg" width="180px" />
+          <h3>Bolognese -------- $ 19,75</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+            quae blanditiis minima suscipit accusantium in.
+          </p>
+        </div>
+      </div>
+
+      <div class="food-pairs-with-prices">
+        <div class="single-food-with-prices">
+          <img src="img/starter3.jpg" width="180px" />
+          <h3>Bolognese -------- $ 19,75</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+            quae blanditiis minima suscipit accusantium in.
+          </p>
+        </div>
+
+        <div class="single-food-with-prices">
+          <img src="img/starter2.jpg" width="180px" />
+          <h3>Bolognese -------- $ 19,75</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+            quae blanditiis minima suscipit accusantium in.
+          </p>
+        </div>
+      </div>
+
+      <div class="food-pairs-with-prices">
+        <div class="single-food-with-prices">
+          <img src="img/starter.jpg" width="180px" />
+          <h3>Bolognese -------- $ 19,75</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+            quae blanditiis minima suscipit accusantium in.
+          </p>
+        </div>
+
+        <div class="single-food-with-prices">
+          <img src="img/starter8.jpg" width="180px" />
+          <h3>Bolognese -------- $ 19,75</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+            quae blanditiis minima suscipit accusantium in.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-titles-wrapper">
+      <div class="block-titles">
+        <img src="img/oregano.png" />
+        <h2>Our Staff</h2>
+        <img src="img/basil.png" />
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores hic
+        ullam laborum unde dignissimos! Repellat?
+      </p>
+    </div>
+
+    <!-- OUR STAFF put in a four food block-->
+    <div class="four-food-block">
+      <div class="single-food-block">
+        <img src="img/cook1.jpg" />
+        <h3>Jamie Oliver</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem.</p>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/cook2.jpg" />
+        <h3>Jeremy Pang</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem,
+          soluta.
+        </p>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/cook3.jpg" />
+        <h3>Farah Quinn</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, soluta
+          perspiciatis?
+        </p>
+      </div>
+
+      <div class="single-food-block">
+        <img src="img/cook4.jpg" />
+        <h3>Gordon Ramsay</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+
+    <div class="recommendations">
+      <div class="recommendations-wrapper">
+        <h4>Client Testimonials</h4>
+        <h2>What Clients Say About Us?</h2>
+
+        <div class="single-recommendation">
+          <button>
+            <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+            <h4 class="white">
+              Lorem ipsum dolor sit amet conseur adipisicing elit. Quo saepe
+              blanditiis vtas, enim non doloribus veniam mi invee.
+            </h4>
+          </button>
+
+          <h4><img src="img/recommend1.png" /> Chris David</h4>
+        </div>
+
+        <div class="single-recommendation">
+          <button>
+            <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+            <h4 class="white">
+              Lorem ipsum dolor sit amet conse adipisicing elit. Quo saepe
+              blanditiis voluptas, enim non doloribus veniam magni inventore.
+            </h4>
+          </button>
+
+          <h4><img src="img/recommend2.png" /> Emily Smith</h4>
+        </div>
+
+        <div class="single-recommendation">
+          <button>
+            <h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+            <h4 class="white">
+              Lorem ipsum dolor sit amet conseur adipisicing elit. Quo saepe
+              blanditiis vuptas, enim non doloribus veniam magni inventore.
+            </h4>
+          </button>
+
+          <h4><img src="img/recommend3.png" /> Barbara Steinfield</h4>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
