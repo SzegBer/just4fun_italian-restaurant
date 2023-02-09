@@ -12,30 +12,44 @@ body {
   margin-top: 0;
 }
 
-div.welcome-block {     /* WELCOME */
+div.welcome-block {   /* WELCOME */
   background-image: url("img/background.jpg");
   background-size: 1000px;
   background-repeat: no-repeat;
   background-position: top;
-  padding-bottom: 260px;
+  padding-bottom: 80px;
 }
 
 div.slideshow {         /* WELCOME */
   text-align: center;
-  padding-top: 150px;
-  width: 600px;
+  padding-top: 80px;
+  width: 700px;
   margin: auto;
+}
+
+div.slideshow > button.contact {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
 }
 
 /* ************* TEXTS *************** */
 h1 {
   color: #D1A644;
   font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+
+div.slideshow > h2 {
+  font-size: 40px;
+  font-weight: 200;
 }
 
 h2 {
   color: #fff;
   font-family: 'Merriweather', serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 div.recommendations-wrapper > h2 {
@@ -53,6 +67,7 @@ h4 {
   font-family: 'Merriweather', serif;
   font-weight: 300;
   position: relative;
+  margin-bottom: 10px;
   left: 50px;
 }
 
@@ -141,6 +156,7 @@ div.block-titles-wrapper > p {
 div.block-titles-wrapper {
   width: 600px;
   margin: auto;
+  margin-top: 20px;
 }
 
 /* ******* SINGLE FOOD BLOCK ******* */
@@ -214,8 +230,8 @@ div.single-food-with-prices > img {
 
 div.prices-block {  /*ALL FOOD WITH PRICES */
   width: 100%;
-  margin: auto;
-  padding: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
   background-color: #10263b;
   margin-bottom: 35px;
 }
@@ -239,12 +255,14 @@ div.recommendations-wrapper {
 
 div.single-recommendation {
   display: inline-block;
+  margin-bottom: 50px;
 }
 
 div.single-recommendation > button {
   background-color: rgba(0,0,0,0.35);
   border: none;
   margin: 15px;
+  margin-top: 40px;
   padding: 20px;
   text-align: left;
   width: 300px;
@@ -256,5 +274,23 @@ h4 > img {
   position: relative;
   top: 35px;
   padding-right: 10px;
+}
+
+div.triangle {
+  width: 0;
+	height: 0;
+	border-left: 28px solid transparent;
+	border-right: 28px solid transparent;
+	border-top: 40px solid #D1A644;
+  position: relative;
+  top: 60px;
+  left: 35px;
+}
+
+
+/* *******  FOOTER  ******* */
+
+div.footer {
+  text-align: center;
 }
 
